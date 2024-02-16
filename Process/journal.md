@@ -15,3 +15,5 @@ Made a Pong game, adapted it to Cellbreaker. Had issues following certain tutori
 # Class 5 - Feb 15, 2024 
 Game Analysis for Killer7. Thinking about which elements I will want to include in my own project and how to implement it. Watched more online tutorials. Read chapter 25.
 
+# Class 6 - Feb 22, 2024 
+
