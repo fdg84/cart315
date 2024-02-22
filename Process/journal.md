@@ -17,3 +17,4 @@ Game Analysis for Killer7. Thinking about which elements I will want to include 
 
 # Class 6 - Feb 22, 2024 
 
+Started 2D tutorial of Shmup game in class (https://youtu.be/rH9IHdp1dyU?si=EQex-yHawIQw4nwY). Continued at home, found a way to debug the Rigidbody / Collision. Ended up following a second tutorial to make a 3D version (https://www.youtube.com/watch?v=SeBEvM2zMpY&ab_channel=samyam). Learned a lot of new things about setting up a game. Very inspiring for final project, started writing about my concept and figuring out the levels and interactions.
