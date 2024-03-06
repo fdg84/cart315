@@ -21,7 +21,7 @@ Started 2D tutorial of Shmup game in class (https://youtu.be/rH9IHdp1dyU?si=EQex
 
 # Class 7 - March 7, 2024 
 
-Conceptualizing - Ideation Process
+Conceptualizing / Ideation Process +++ Made paper version of IDEA 01 : trying out the concept and figuring out details concerning actual play-through of the game. So far it seems like it can work, I need to redefine a few core concepts. 
 
 IDEA 01 >>
 
