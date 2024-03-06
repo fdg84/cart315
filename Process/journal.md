@@ -18,3 +18,50 @@ Game Analysis for Killer7. Thinking about which elements I will want to include 
 # Class 6 - Feb 22, 2024 
 
 Started 2D tutorial of Shmup game in class (https://youtu.be/rH9IHdp1dyU?si=EQex-yHawIQw4nwY). Continued at home, found a way to debug the Rigidbody / Collision. Ended up following a second tutorial to make a 3D version (https://www.youtube.com/watch?v=SeBEvM2zMpY&ab_channel=samyam). Learned a lot of new things about setting up a game. Very inspiring for final project, started writing about my concept and figuring out the levels and interactions.
+
+# Class 7 - March 7, 2024 
+
+Conceptualizing - Ideation Process
+
+IDEA 01 >>
+
+3d world / glowing floating words
+Collect them in various order 
+Walk w notebook / Create sentences / Find meaning 
+The ghost trying to communicate 
+The mother node / internal dialogue
+Add portal to switch scenes
+3 levels of words / Last one holds the puzzle 
+Unlocks connection w mother
+Grading system / Score percentage before each portal
+15 words total / Collect 5 per level 
+Create your most coherent sentence
+Judged at the end / Receive various poetic responses 
+Depending on final score
+Add toxic words / Diminish score / Hidden motives
+Different types of design / For each level 
+use my Blender 3D models as assets
+globe like layout / infinite world / instead of being trapped by walls
+
+IDEA 02 >>
+
+words growing like garden
+alien seeds / evolution / nature
+biology / alchemy / observations
+put seeds together to create new species
+growing / climb giant plants 
+
+IDEA 03 >>
+
+computer virus
+jumping from different phones
+crash their systems
+airdrop images / erroneous messages
+passing through internet cables to travel
+tubes / tunnels
+spawn a family of other viruses
+take over the world / crash city systems
+map of areas you have taken over
+world map / travel fast / anywhere you want
+
+# Class 8 - March 14, 2024 
