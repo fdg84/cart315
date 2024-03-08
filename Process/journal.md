@@ -65,3 +65,9 @@ map of areas you have taken over
 world map / travel fast / anywhere you want
 
 # Class 8 - March 14, 2024 
+
+After the first round of play testing in class, I can see the issues I will possibly encounter during the creative process. The most prominent of these concerns revolves around the point system that is associated to the word combinations I have attached to the game. I guess the best way to proceed will be to add more direct criteria for judging how good or bad the player's game is going, in connection to reaching the last stage with the mother. The points will differentiate how well the player has chosen word categories to achieve a high ranking position in the game. I also want to include 'toxic' words that will bring the points down so I must figure out the exact way of doing so. Overall, the play testing enticed the other students and prompted some good responses and general questions on the game. The paper version I made acted as a conceptual way of presenting the possible video game made in Unity. I explored touch and feel, as well as function and actual game play. I am looking forward to exploring the more digital side of the game's production in the coming weeks.
+
+Link to Visual Concept + Paper Prototype: https://www.are.na/fdg/cart-315 
+
+# Class 9 - March 21, 2024 
