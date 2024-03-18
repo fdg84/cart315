@@ -71,3 +71,9 @@ After the first round of play testing in class, I can see the issues I will poss
 Link to Visual Concept + Paper Prototype: https://www.are.na/fdg/cart-315 
 
 # Class 9 - March 21, 2024 
+
+I played through the game by myself to figure out the proper points system. After counting each card and playing 7 rounds, I could see that my concept was working alright. The player should aim for 555 points (determined by the letters of the alphabet). If your total exceeds this amount you fail the game, and if your total exceeds 600, you most likely have picked the Toxic cards which have higher points  associated to them, which ultimately is a bad thing. I still need to simplify the concept concerning points, but at least the play testing has provided positive outcomes. 
+
+Link to Updated Prototype + Proof of Game: https://www.are.na/block/27049453 
+
+# Class 10 - March 28, 2024 
