@@ -76,6 +76,14 @@ I played through the game by myself to figure out the proper points system. Afte
 
 A few days later, I decided to adapt the same concept for my CART 263 final project for Pippin's class. I used the points system and layout to develop a similar game play which I thought could be possible without too many changes. The project will include an AI speech bot and voice recognition, creating a highly interactive version of the game for the player.
 
+1 - Intro Page / Gameplay Info
+2 - Level 1
+3 - Level 2
+4 - Level 3
+5 - Points Breakdown
+6 - Mother Conversation
+7 - Final Page / Replay Option
+
 Link to Updated Prototype + Proof of Game: https://www.are.na/block/27049453 
 Link to CART 263 Version: https://www.are.na/block/27082783 
 
