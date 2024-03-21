@@ -74,6 +74,9 @@ Link to Visual Concept + Paper Prototype: https://www.are.na/fdg/cart-315
 
 I played through the game by myself to figure out the proper points system. After counting each card and playing 7 rounds, I could see that my concept was working alright. The player should aim for 555 points (determined by the letters of the alphabet). If your total exceeds this amount you fail the game, and if your total exceeds 600, you most likely have picked the Toxic cards which have higher points  associated to them, which ultimately is a bad thing. I still need to simplify the concept concerning points, but at least the play testing has provided positive outcomes. 
 
+A few days later, I decided to adapt the same concept for my CART 263 final project for Pippin's class. I used the points system and layout to develop a similar game play which I thought could be possible without too many changes. The project will include an AI speech bot and voice recognition, creating a highly interactive version of the game for the player.
+
 Link to Updated Prototype + Proof of Game: https://www.are.na/block/27049453 
+Link to CART 263 Version: https://www.are.na/block/27082783 
 
 # Class 10 - March 28, 2024 
