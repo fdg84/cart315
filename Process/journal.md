@@ -89,3 +89,9 @@ Link to CART 263 Version: https://www.are.na/block/27082783
 Link to CART 263 AI speech-bot Prototype: https://github.com/fdg84/cart263/tree/main/Activities/Voice_Activated_Audio 
 
 # Class 10 - March 28, 2024 
+
+After having started developing the web based prototype, I was able to discern what type of actions the player would have to do in order to advance properly through the levels. At this time, I have the first 3 levels ready, including a score page and a final conversation with the Mother entity. Everything is voice controlled via Speech Recognizer. I am having issues with the audio but in theory it all works. I think it's just a bug within the system preferences. Next steps are pushing the design aspects and finalizing the title page. There was also a bug concerning the font choice, which I am sure is an easy fix.  
+
+Link to Web Prototype: https://github.com/fdg84/cart263/tree/main/FINAL_PROJECT/AI_HAIKU 
+
+# Class 11 - April 4, 2024 
