@@ -96,6 +96,6 @@ Link to Web Prototype: https://fdg84.github.io/cart263/FINAL_PROJECT/AI_HAIKU/
 
 # Class 11 - April 4, 2024 
 
-
+I play tested my prototype in class tonight and spoke to other students about the creation process. I also started drafting my pitch for next week's class presentations. After receiving some important information about using this project for both CART 315 & CART 263, I decided to modify the concept for Pippin's class, editing certain elements to create an alternate version of my existing prototype. I'm not quite sure which direction it will take yet, but I will be keeping the AI HAIKU for this class, since development has been going well and I already have my idea for the poster. 
 
 # Class 12 - April 11, 2024 
