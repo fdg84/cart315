@@ -11,7 +11,7 @@ Multiple Commands + Variables in Commands
 const voiceSynthesizer = new p5.Speech();
 const voiceRecognizer = new p5.SpeechRec();
 //let wetWav, liquidWav, bubblyWav, airWav, flowWav
-//let feedbackString = `...`;
+//let feedbackString = `...`; 
 
 let textColor = `black`
 let level = 0
