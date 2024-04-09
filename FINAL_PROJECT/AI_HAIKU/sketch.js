@@ -6,7 +6,7 @@ Inspired by Pippin Barr - Class Examples
 Multiple Commands + Variables in Commands 
 */
 
-"use strict";
+"use strict"; 
 
 const voiceSynthesizer = new p5.Speech();
 const voiceRecognizer = new p5.SpeechRec();
