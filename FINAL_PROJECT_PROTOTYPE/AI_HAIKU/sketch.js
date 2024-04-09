@@ -158,7 +158,7 @@ const lines = [
   ]
 ]
 
-// Mother's Possible Responses
+// Mother's Possible Responses 
 let responses = [
   {
     "text": "Amongst the stars, listen. The universe sings a song of connection, woven with love's luminous thread. You are part of it, shine bright.",
