@@ -25,7 +25,7 @@ let speechDelay = 500
 let height = 200
 let width = 350
 let space = 400
-  
+
 //voiceSynthesizer.onEnd = onSpeechEnd
 
 // function onSpeechEnd () {
@@ -36,6 +36,8 @@ let space = 400
 function preload() {
     // wetWav = loadSound('assets/sounds/vRec1.wav');
 }
+
+// MAKE TITLE PAGE
 
 
 const lines = [
@@ -192,30 +194,38 @@ let responses = [
   }
 ]
 
-// Activate Voice Recognizer
+// Activate Voice Recognizer + SETTINGS
+
 function setup() {
   voiceRecognizer.continuous = true;
   voiceRecognizer.onResult = onResult;
   voiceRecognizer.start();
+
+  console.log(voiceSynthesizer.listVoices());
+  voiceSynthesizer.setPitch(0.1);
+  voiceSynthesizer.setRate(0.5);
+  voiceSynthesizer.setVoice(`Google UK English Female`);
+
   textFont(`Tilt Warp`)
+  // textAlign(CENTER);
   startLevel()
 }
 
 function startLevel() {
   createCanvas(windowWidth,windowHeight);
 
-  // First Row
+  // First Row of Boxes
   let y = 50
   for (let i = 0; i < 3; i++){
-    let x = 250 + i*space
+    let x = 200 + i*space
     rect(x, y, width, height);
     rectCoords.push({x,y,boxId: i})
   }
   
-  // Second Row
+  // Second Row of Boxes
   y = 270
   for (let i = 0; i < 3; i++){
-    let x = 250 + i*space
+    let x = 200 + i*space
     rect(x, y, width, height);
     rectCoords.push({x,y,boxId: i+3})
   }  
@@ -231,6 +241,8 @@ function startLevel() {
       text(line, rectCoords[i].x + 30, rectCoords[i].y + 100 + 40*lineCount);
       lineCount++
     }
+    // THIS JUMPS TEXT LINE IN BOXES
+
     //text(lines[level][random[0]].line, rectCoords[i].x + 30, rectCoords[i].y + 100);
     
     lines[level][random[0]].boxId = rectCoords[i].boxId
@@ -272,7 +284,7 @@ function haikuPage() {
   
   setTimeout(() => {
     voiceSynthesizer.speak(haikuText)
-    setTimeout(() => motherPage(score) , 5000)
+    setTimeout(() => motherPage(score) , 10000)
    } 
    , speechDelay)
   
@@ -315,11 +327,12 @@ function motherPage(score) {
   
   level = 0
   haiku = []
-  setTimeout(startLevel, 10000)
+  setTimeout(startLevel, 20000)
 }
-
+// Background Color
 function draw() {
-
+  background (186,213,50,3)
+  // background (30,41,42)
 }
 
 // 
@@ -329,7 +342,7 @@ function choose(line){
   
   // Show Selected Box
   push()
-  fill('yellow')
+  fill(130,11,11)
   rect(rectCoords[line.boxId].x, rectCoords[line.boxId].y, width, height);   
   textSize(30)
   textFont(`Tilt Warp`)
