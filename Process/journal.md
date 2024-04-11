@@ -99,3 +99,7 @@ Link to Web Prototype: https://fdg84.github.io/cart263/FINAL_PROJECT/AI_HAIKU/
 I play tested my prototype in class tonight and spoke to other students about the creation process. I also started drafting my pitch for next week's class presentations. After receiving some important information about using this project for both CART 315 & CART 263, I decided to modify the concept for Pippin's class, editing certain elements to create an alternate version of my existing prototype. I'm not quite sure which direction it will take yet, but I will be keeping the AI HAIKU for this class, since development has been going well and I already have my idea for the poster. 
 
 # Class 12 - April 11, 2024 
+
+I have been editing the webpage to get a better flow in the game, although there has been some glitches with the speech bot. I am troubleshooting the issues relating to this by adding time to each sentence so there is less overlap by the AI responses. Ultimately, there is a lot of work to do to clean up the prototype, but I feel confident that once done, this project could be a fun and interactive webpage to adapt for a larger concept.
+
+# Class 13 - April 17, 2024 
