@@ -104,4 +104,6 @@ I have been editing the webpage to get a better flow in the game, although there
 
 After receiving feedback during the pitch presentation in class, I think it would be good to include an extra narrative element to help guide the player during game play. I would also implement a changing color system for the background to indicate if the chosen text is more positive or negative (score-wise). This would help show the 'mood' of the text so that the player could realign their choices to aim for the best final haiku. Lastly, it would be interesting to use an actual AI for the Mother, so the player could converse with her in real time.   
 
+Pitch Presentation: https://www.are.na/block/27518499 
+
 # Class 13 - April 17, 2024 
