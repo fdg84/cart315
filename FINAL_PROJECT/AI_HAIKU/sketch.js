@@ -10,7 +10,7 @@ Multiple Commands + Variables in Commands
 
 const voiceSynthesizer = new p5.Speech();
 const voiceRecognizer = new p5.SpeechRec();
-//let wetWav, liquidWav, bubblyWav, airWav, flowWav
+let cd1, cd2, cd3
 //let feedbackString = `...`; 
 
 let textColor = `black`
@@ -34,7 +34,10 @@ let space = 400
 
 // Load Audio
 function preload() {
-    // wetWav = loadSound('assets/sounds/vRec1.wav');
+    // cd1 = loadSound('assets/sounds/cd1.mp3');
+    // cd2 = loadSound('assets/sounds/cd2.mp3');
+    // cd3 = loadSound('assets/sounds/cd3.mp3');
+
 }
 
 // MAKE TITLE PAGE
@@ -201,12 +204,14 @@ function setup() {
   voiceRecognizer.onResult = onResult;
   voiceRecognizer.start();
 
-  console.log(voiceSynthesizer.listVoices());
+  // TURN THIS ON & OFF TO REACTIVATE SPEECH BOT
+  
+  // console.log(voiceSynthesizer.listVoices());
   voiceSynthesizer.setPitch(0.1);
   voiceSynthesizer.setRate(0.5);
   voiceSynthesizer.setVoice(`Google UK English Female`);
 
-  textFont(`Tilt Warp`)
+  // textFont(`Tilt Warp`)
   // textAlign(CENTER);
   startLevel()
 }
@@ -233,7 +238,7 @@ function startLevel() {
   // Add Text
   for (let i = 0; i < 6; i++){
     textSize(30)
-    textFont(`Tilt Warp`)
+    // textFont(`Tilt Warp`)
     fill(textColor)
     
     let lineCount = 0
@@ -241,7 +246,7 @@ function startLevel() {
       text(line, rectCoords[i].x + 30, rectCoords[i].y + 100 + 40*lineCount);
       lineCount++
     }
-    // THIS JUMPS TEXT LINE IN BOXES
+    // JUMPS LINE IN TEXT BOXES
 
     //text(lines[level][random[0]].line, rectCoords[i].x + 30, rectCoords[i].y + 100);
     
@@ -253,7 +258,7 @@ function startLevel() {
   let lineNum = 0
   for(let line of haiku){
     textSize(30)
-    textFont(`Tilt Warp`)
+    // textFont(`Tilt Warp`)
     fill(textColor)
     text(line.text, windowWidth/2-100, 520 + lineNum*50);
     lineNum++
@@ -272,7 +277,7 @@ function haikuPage() {
   let haikuText = ""
   for(let line of haiku){
     textSize(30)
-    textFont(`Tilt Warp`)
+    // textFont(`Tilt Warp`)
     fill(textColor)
     text(line.text, windowWidth/2-100, 320 + lineNum*50);
     score += line.score
@@ -315,7 +320,7 @@ function motherPage(score) {
 
   for(let line of finalResponse.line){
     textSize(30)
-    textFont(`Tilt Warp`)
+    // textFont(`Tilt Warp`)
     fill(textColor)
     text(line, windowWidth/2-100, 320 + lineNum*50);
     lineNum++
@@ -331,8 +336,7 @@ function motherPage(score) {
 }
 // Background Color
 function draw() {
-  background (186,213,50,3)
-  // background (30,41,42)
+  background (37,58,90,3)
 }
 
 // 
@@ -340,12 +344,12 @@ function choose(line){
   lineChosen = true
   //colourBox(line.line, line.boxId)
   
-  // Show Selected Box
+  // SHOW SELECTED BOX (COLOR)
   push()
-  fill(130,11,11)
+  fill(214, 254, 2)
   rect(rectCoords[line.boxId].x, rectCoords[line.boxId].y, width, height);   
   textSize(30)
-  textFont(`Tilt Warp`)
+  // textFont(`Tilt Warp`)
   fill(textColor)
   
   let lineCount = 0
