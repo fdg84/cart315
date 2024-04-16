@@ -204,7 +204,11 @@ function setup() {
   voiceRecognizer.onResult = onResult;
   voiceRecognizer.start();
 
+  //
+  //
   // TURN THIS ON & OFF TO REACTIVATE SPEECH BOT
+  //
+  //
   
   // console.log(voiceSynthesizer.listVoices());
   voiceSynthesizer.continuous = true;
