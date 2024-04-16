@@ -1,4 +1,4 @@
-# AI HAIKU
+# h(AI)ku
 ## Francis Ouellette
 
 Inspired by Pippin Barr (Class Examples)
