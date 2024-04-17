@@ -107,3 +107,7 @@ After receiving feedback during the pitch presentation in class, I think it woul
 Pitch Presentation: https://www.are.na/block/27518499 
 
 # Class 13 - April 17, 2024 
+
+After adding more details and editing the project a bit more since the presentations, I was able to activate the voice (in a DIY debugging manner). It works but still encounters bugs. I am going to add a cover page which will include the rules and extra game info. The page color is interesting, but ideally I would design the game's layout a bit more. It is adaptable and I aim to push it further during the coming weeks. I enjoyed developing this concept and learned a lot while play-testing and preparing my project over the course of the last month. 
+
+Video - Prototype: https://www.are.na/block/27575729 
