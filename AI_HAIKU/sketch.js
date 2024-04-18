@@ -228,7 +228,10 @@ function setup() {
 
 function startLevel() {
   createCanvas(windowWidth,windowHeight);
-
+  voiceSynthesizer.setPitch(0.8);
+  voiceSynthesizer.setRate(0.8);
+  voiceSynthesizer.setVoice(`Google UK English Male`);
+  
   // First Row of Boxes
   let y = 50
   for (let i = 0; i < 3; i++){
@@ -280,6 +283,11 @@ function menuScreen() {
   createCanvas(windowWidth,windowHeight);
   background(255);
   isMenuScreen = true
+  voiceSynthesizer.setPitch(0.1);
+  voiceSynthesizer.setRate(0.5);
+  voiceSynthesizer.setVoice(`Google UK English Female`);
+  voiceSynthesizer.speak("Welcome")
+    
   // Draw the image.
   image(menu, 200,50, 1200, 675);
 }
@@ -294,10 +302,10 @@ function haikuPage() {
   let score = 0
   let haikuText = ""
   for(let line of haiku){
-    textSize(30)
+    textSize(50)
     // textFont(`Tilt Warp`)
     fill(textColor)
-    text(line.text, windowWidth/2-100, 320 + lineNum*50);
+    text(line.text, windowWidth/2-300, 320 + lineNum*50);
     score += line.score
     lineNum++
     haikuText += ", " + line.text
@@ -337,10 +345,10 @@ function motherPage(score) {
   }
 
   for(let line of finalResponse.line){
-    textSize(30)
+    textSize(60)
     // textFont(`Tilt Warp`)
     fill("white")
-    text(line, windowWidth/2-100, 320 + lineNum*50);
+    text(line, windowWidth/2-400, 320 + lineNum*50);
     lineNum++
   }
   
